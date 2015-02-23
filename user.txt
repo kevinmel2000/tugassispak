@@ -1,0 +1,5 @@
+user|password
+
+admin123|admin123
+user123|user123
+pakar123|pakar123

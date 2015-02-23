@@ -1,0 +1,15 @@
+
+.input
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 30px 0px 10px 0px;
+}   
+
+.input_title_text
+{
+    margin: -20px 0px 10px 0px;
+    padding: 0px 0px 0px 10px;
+    background: #fff;
+    width: 124px;
+}

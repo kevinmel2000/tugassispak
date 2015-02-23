@@ -1,0 +1,104 @@
+html
+{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+}
+
+#wrapper
+{
+	min-width: 960px;
+	max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+	height: 100%;
+}
+
+#header
+{
+	width: 100%;
+	height: 30px;
+	background: #F4F5F5;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+#content_container
+{
+    margin: auto;
+	padding: 100px 0px 0px 0px;
+    font-size: 13px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#wrapped_content
+{
+    margin: auto;
+    width: 830px;
+}
+
+#company_info
+{
+    float: left;
+    width: 500px;
+    font-family: tahoma;
+}
+
+#company_text_header
+{
+    color: #333;
+    font-size: 20px;
+	padding: 13px 0px 5px 24px;
+}
+
+.text_description
+{
+    color: #333;
+    font-size: 12px;
+	padding: 0px 0px 5px 24px;
+}
+
+.text_description ul li
+{
+    margin: 0px 0px 10px 0px;
+}
+
+#login
+{
+    width: 240px;
+    padding: 30px;
+    background: #F4F5F5;
+    border: 1px solid #ccc;
+    margin: 0px 0px 0px 520px;
+}
+
+#login_title_text
+{
+    font-size: 15px;
+	font-weight: lighter;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+	padding: 0px 0px 5px 0px;
+}
+
+#footer
+{
+    clear: both;
+    background: #F4F5F5;
+    border-top: 1px solid #ccc;
+}
+
+#footer_container
+{
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+}

@@ -1,0 +1,76 @@
+.arrowlistmenu
+{
+	width: 200px; /*width of accordion menu*/
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.arrowlistmenu h3
+{
+	margin: 0px 0px 0px 0px;
+	
+}
+
+.arrowlistmenu .menuheader
+{ 
+	/*CSS class for menu headers in general (expanding or not!)*/
+	font-size: 11px;
+	color: white;
+	background: url('images/titlebar.png') repeat-x center left;
+	margin-bottom: 0px; /*bottom spacing between header and rest of content*/
+	padding: 9px 0 8px 10px; /*header text is indented 10px*/
+	cursor: hand;
+	cursor: pointer;
+}
+
+.icon_app
+{
+	background: url('images/icon_app.png') no-repeat center left;
+	padding: 0px 0px 0px 20px;
+}
+
+.arrowlistmenu .openheader
+{ 
+	/*CSS class to apply to expandable header when it's expanded*/
+	background-image: url('images/titlebar-active.png');
+}
+
+.arrowlistmenu ul
+{ 
+	/*CSS for UL of each sub menu*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: -2px; /*bottom spacing between each UL and rest of content*/
+	background: #f5f5f5;
+}
+
+.arrowlistmenu ul li
+{
+	padding: 2px 3px 2px 10px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a
+{
+	color: #000;
+	background: url('images/arrowbullet.png') no-repeat center left; /*custom bullet list image*/
+	display: block;
+	padding: 4px 0;
+	padding-left: 19px; /*link text is indented 19px*/
+	text-decoration: none;
+	border-bottom: 1px solid #dadada;
+	font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited
+{
+	color: #ooo;
+}
+
+.arrowlistmenu ul li a:hover
+{ 
+	/*hover state CSS*/
+	color: #A70303;
+	background-color: #F3F3F3;
+	font-weight: bold;
+}
